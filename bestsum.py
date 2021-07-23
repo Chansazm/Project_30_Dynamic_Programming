@@ -15,13 +15,6 @@ def bestsum(targetsum,numbers,memo = {}):
     memo[targetsum] = shortest_combination
     return memo[targetsum]
 
-
-
-
-
-
-
-
 #Driver function
 # m is target and n is len(numbers)
 #Time complexity:: 
