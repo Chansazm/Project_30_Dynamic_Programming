@@ -11,5 +11,6 @@ def fib(n,memo = {}):
 
 #Driver function
 #Time complexity:: Linear with memoized solution and 2^n not memoised
+#Time complexity is the branching factor to the height power
 #Space complexity is linear
 print(fib(5000))
