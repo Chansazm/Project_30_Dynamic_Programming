@@ -5,7 +5,7 @@ def canconstructtab(target,wordbank):
     for each_value in range(len(Table)):
         if Table[each_value] == True:
             for word in wordbank:
-                if target == word[:len(word)]:
+                if target == word[:word]:
                     Table[each_value + len(word)] = True
     return Table[-1]
 
